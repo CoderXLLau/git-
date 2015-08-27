@@ -14,6 +14,7 @@
 		5315B1391B8F1AEE00D0D77F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5315B1381B8F1AEE00D0D77F /* Images.xcassets */; };
 		5315B13C1B8F1AEE00D0D77F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5315B13A1B8F1AEE00D0D77F /* LaunchScreen.xib */; };
 		5315B1481B8F1AEE00D0D77F /* _3__github_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5315B1471B8F1AEE00D0D77F /* _3__github_______Tests.m */; };
+		5315B1531B8F1D7900D0D77F /* adf ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5315B1521B8F1D7900D0D77F /* adf ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5315B1411B8F1AEE00D0D77F /* 03--github服务器做共享库Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03--github服务器做共享库Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5315B1461B8F1AEE00D0D77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5315B1471B8F1AEE00D0D77F /* _3__github_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_3__github_______Tests.m"; sourceTree = "<group>"; };
+		5315B1511B8F1D7900D0D77F /* adf ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "adf ViewController.h"; sourceTree = "<group>"; };
+		5315B1521B8F1D7900D0D77F /* adf ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "adf ViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				5315B1381B8F1AEE00D0D77F /* Images.xcassets */,
 				5315B13A1B8F1AEE00D0D77F /* LaunchScreen.xib */,
 				5315B12B1B8F1AEE00D0D77F /* Supporting Files */,
+				5315B1511B8F1D7900D0D77F /* adf ViewController.h */,
+				5315B1521B8F1D7900D0D77F /* adf ViewController.m */,
 			);
 			path = "03--github服务器做共享库";
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5315B1341B8F1AEE00D0D77F /* ViewController.m in Sources */,
+				5315B1531B8F1D7900D0D77F /* adf ViewController.m in Sources */,
 				5315B1311B8F1AEE00D0D77F /* AppDelegate.m in Sources */,
 				5315B12E1B8F1AEE00D0D77F /* main.m in Sources */,
 			);
@@ -418,6 +424,7 @@
 				5315B14D1B8F1AEE00D0D77F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5315B14E1B8F1AEE00D0D77F /* Build configuration list for PBXNativeTarget "03--github服务器做共享库Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				5315B1501B8F1AEE00D0D77F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
